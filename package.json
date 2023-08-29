@@ -1,0 +1,17 @@
+{
+	"author": "Ephraim Smith <ephraim@ephraimsmith.dev>",
+	"dependencies": {
+		"tailwindcss": "^3.3.3"
+	},
+	"description": "where I stash my TailwindCSS experiments",
+	"license": "MIT",
+	"main": "index.js",
+	"name": "tailwindcss-sandbox",
+	"private": false,
+	"repository": "https://github.com/ephcoding/tailwindcss-sandbox",
+	"scripts": {
+		"dev": "tailwindcss -i ./input.css -o ./css/tailwind.css --watch",
+		"build": "tailwindcss -i ./input.css -o ./css/tailwind.css"
+	},
+	"version": "1.0.0"
+}
